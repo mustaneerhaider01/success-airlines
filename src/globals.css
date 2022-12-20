@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inter:wght@400;500&family=Open+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#e7e7e7] font-open;
+  }
+}
+
+@layer components {
+  .icon {
+    @apply h-8 w-8 md:h-12 md:w-12 flex items-center justify-center rounded-full bg-[#0077FF] cursor-pointer hover:opacity-70;
+  }
+
+  .input {
+    @apply border border-[#404A522B] rounded-md bg-[#FCFCFC] text-[#484848] placeholder-[#484848] px-2 py-3 text-xs w-full;
+  }
+
+  .invalid {
+    @apply ring-4 ring-red-400 bg-red-100;
+  }
+
+  .invalid-feedback {
+    @apply text-xs text-red-500 mt-2;
+  }
+
+  .link {
+    @apply px-4 py-2 border border-blue-500 rounded-sm text-blue-500 hover:text-white hover:bg-blue-500 text-center cursor-pointer;
+  }
+}
