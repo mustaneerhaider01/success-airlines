@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="writeToUs">
+    <div className="writeToUs bg-blue-500 lg:bg-transparent mt-8 lg:mt-0">
       <div className="footerLinks">
         <div className="left">
           <div className="successAirline">
@@ -28,21 +28,12 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <div className="siteMaps">
-              <p>Site Map</p>
-              <div className="row">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#reviews">User Reviews</a>
-                <a href="#contact">Contact Us</a>
-              </div>
-            </div>
           </div>
           <p id="copyWrite">
             Copyright © 2022 SUCCESS AIRLINES APP LLC- All Rights Reserved.
           </p>
         </div>
-        <img className="footerImg" src="/img/footerImg.png" alt="" />
+        <img className="hidden lg:inline footerImg" src="/img/footerImg.png" alt="" />
       </div>
     </div>
   );

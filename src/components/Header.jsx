@@ -28,9 +28,9 @@ function Header() {
         <div className="lg:max-w-5xl lg:mx-auto mx-3 sm:mx-5 py-7 flex items-center justify-between">
           <button className="lg:hidden" onClick={toggleDrawer}>
             {isOpen ? (
-              <CrossIcon className="h-12 w-12 text-blue-900" />
+              <CrossIcon className="h-10 w-10 text-blue-900" />
             ) : (
-              <MenuIcon className="h-12 w-12 text-blue-900" />
+              <MenuIcon className="h-10 w-10 text-blue-900" />
             )}
           </button>
 
