@@ -25,11 +25,8 @@ function Header() {
           src="/img/Background.png"
         />
 
-        <div className="lg:max-w-5xl lg:mx-auto mx-5 py-7 flex items-center justify-between">
-          <button
-            className="lg:hidden"
-            onClick={toggleDrawer}
-          >
+        <div className="lg:max-w-5xl lg:mx-auto mx-3 sm:mx-5 py-7 flex items-center justify-between">
+          <button className="lg:hidden" onClick={toggleDrawer}>
             {isOpen ? (
               <CrossIcon className="h-12 w-12 text-blue-900" />
             ) : (
@@ -84,8 +81,8 @@ function Header() {
             SuccessAirlines
           </h1>
 
-          <Link to="/contact">
-            <button className="md:px-4 px-2 py-1 md:py-2 bg-white rounded-md text-blue-500 text-sm md:text-base ml-2 md:ml-0 whitespace-nowrap">
+          <Link to="contact" smooth duration={500}>
+            <button className="md:px-4 px-2 py-2 bg-white rounded-md text-blue-500 text-sm md:text-base ml-2 md:ml-0 whitespace-nowrap">
               Contact Us
             </button>
           </Link>

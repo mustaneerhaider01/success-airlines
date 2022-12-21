@@ -1,6 +1,6 @@
 function ContactUs() {
   return (
-    <section className="mt-40 flex flex-col">
+    <section name='contact' className="mt-40 flex flex-col">
       <div className="relative w-[200px] md:w-[250px]">
         <h5 className="text-4xl md:text-5xl font-iowan font-bold pb-2">Write To Us</h5>
         <div className="absolute right-0 bottom-0 h-[5px] bg-[#0063be] w-36 md:w-40" />

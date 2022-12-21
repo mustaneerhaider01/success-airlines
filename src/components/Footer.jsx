@@ -12,7 +12,7 @@ function Footer() {
         </div>
         <div className="right">
           <div className="row" id="rowTop">
-            <div className="social">
+            <div className="social ml-[70px] md:ml-0">
               <p>Social Links</p>
               <div className="row">
                 <a href="#">
