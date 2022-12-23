@@ -186,20 +186,6 @@
   margin-right: 12px;
 }
 
-.writeToUs .footerLinks .right .row .siteMaps {
-  display: none;
-}
-
-.writeToUs .footerLinks .right .row .siteMaps .row a {
-  text-decoration: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  margin-right: 43px;
-  color: rgba(255, 255, 255, 0.71);
-}
 .writeToUs .footerLinks .right .row .social .row a {
   font-family: "Open Sans";
   font-style: normal;
@@ -210,29 +196,6 @@
   color: rgba(255, 255, 255, 0.71);
 }
 
-.writeToUs .footerLinks .right .row .siteMaps p {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 30px;
-  color: #ffffff;
-  margin-bottom: 23px;
-}
-.writeToUs .footerLinks .right .row .siteMaps .row {
-  display: flex;
-  align-items: flex-end;
-}
-.writeToUs .footerLinks .right .row .siteMaps .row {
-  margin-right: 63px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.71);
-}
 #copyWrite {
   font-family: "Open Sans";
   font-style: normal;
@@ -365,23 +328,6 @@
   }
   .writeToUs .footerLinks .right .row .social .row {
     justify-content: center;
-  }
-  .writeToUs .footerLinks .right .row .siteMaps {
-    width: 100%;
-  }
-  .writeToUs .footerLinks .right .row .siteMaps .row {
-    justify-content: space-around;
-  }
-  .writeToUs .footerLinks .right .row .siteMaps .row a {
-    text-decoration: none;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    margin-right: 43px;
-    color: rgba(255, 255, 255, 0.71);
-    margin-bottom: 23px;
   }
 }
 @media only screen and (max-width: 992px) {

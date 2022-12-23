@@ -12,19 +12,20 @@ function Footer() {
         </div>
         <div className="right">
           <div className="row" id="rowTop">
-            <div className="social ml-[70px] md:ml-0">
-              <p>Social Links</p>
+            <div className="social">
+              <p className="-ml-5 sm:-ml-0">Social Links</p>
               <div className="row">
                 <a href="#">
-                  <img src="/img/facebook-rect.png" alt="" /> Facebook
+                  <img src="/img/facebook-rect.png" alt="" />
+                  <span>Facebook</span>
                 </a>
                 <a href="#">
                   <img src="/img/instagram-filled.png" alt="" />
-                  Instagram
+                  <span>Instagram</span>
                 </a>
                 <a href="#">
                   <img src="/img/linkedin-rect.png" alt="" />
-                  LinkedIn
+                  <span>LinkedIn</span>
                 </a>
               </div>
             </div>
@@ -33,7 +34,11 @@ function Footer() {
             Copyright © 2022 SUCCESS AIRLINES APP LLC- All Rights Reserved.
           </p>
         </div>
-        <img className="hidden lg:inline footerImg" src="/img/footerImg.png" alt="" />
+        <img
+          className="hidden lg:inline footerImg"
+          src="/img/footerImg.png"
+          alt=""
+        />
       </div>
     </div>
   );
